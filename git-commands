@@ -1,0 +1,47 @@
+git init 
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "commit1" file1
+git status
+git log
+git show cid
+
+------------------------------------
+touch file2 file3 file4
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+git status
+git commit -m "label"
+git status
+git log
+
+mkdir prasad
+cd prasad
+
+
+git clone path/of/c-repo
+ls
+cd dir
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "commit1" file1
+git status
+git log
+git push
