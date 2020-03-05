@@ -1,0 +1,116 @@
+
+git init 
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "commit1" file1
+git status
+git log
+git show cid
+
+------------------------------------
+touch file2 file3 file4
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+git status
+git commit -m "label"
+git status
+git log
+
+mkdir prasad
+cd prasad
+=========================
+
+git clone https://github.com/polarapu/batch-52.git
+ls
+cd batch-52
+ls
+touch devops
+git status
+git add devops
+git commit -m "test commit"
+git push
+git pull --rebase
+git push
+
+==================
+git log
+git log --oneline
+git log -n
+git log --oneline -n
+git log --author=prasad
+git log --author=Prasad --oneline
+git log --author=Prasad --oneline -3
+
+git log --since=yy-mm-dd 
+or
+git log --after=yy-mm-dd
+
+git log --until=yy-mm-dd
+or
+git log --before=yy-mm-dd
+
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after=yy-mm-dd --before=yy-mm-dd
+
+git log --after="yy-mm-dd 00:00" --before="yy-mm-dd 00:00"
+
+git log --grep="label"
+git log -- file-name
+
+======================
+
+BRANCH ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
